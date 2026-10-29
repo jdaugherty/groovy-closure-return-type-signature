@@ -5,7 +5,8 @@ that type is a parameterized type whose class is compiled in the same compilatio
 arguments. When the class is already compiled, Groovy keeps them. So the same source compiles to a closure class with
 a different signature depending on what else is compiled, which incremental builds and build caches see as a change.
 
-Reproduced with Groovy 4.0.33, 5.1.3 and `master`.
+Reproduced with Groovy 4.0.33, 5.1.3 and `master`. Reported as
+[GROOVY-12550](https://issues.apache.org/jira/browse/GROOVY-12550).
 
 ## The difference
 
